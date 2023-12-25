@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>пироги</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- заголовок и кнопки -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center" style="font-size: 80px;">Layout course HTML/CSS </h1>
+                    <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="itd_triangle"></div>
+                    </div>
+                    <a href="#footer" class="btn btn-itd btn-lg text-uppercase"><b>Order</b></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- модальное окно, вслывающее при нажатии на кнопку play -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Bonus video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- <style>
+                        .embed-container {
+                            position: relative;
+                            padding-bottom: 56.25%;
+                            height: 0;
+                            overflow: hidden;
+                            max-width: 100%;
+                        }
+
+                        .embed-container iframe,
+                        .embed-container object,
+                        .embed-container embed {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    </style>
+                    <div class='embed-container'><iframe src='https://youtu.be/gaxPqUW1JfU?si=hAhVU8TSfMYcC2IX' frameborder='0' allowfullscreen></iframe></div>
+                   -->
+                   <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://youtu.be/gaxPqUW1JfU?si=4XSEV3mn6yYcxrHU' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- раздел "о курсе" -->
+    <section class="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-5 color1" style="font-size: 60px;">About our course</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle">
+                        <i class="icon-list-numbered"></i>
+                    </div>
+                    <h5 class="text-center">Structured material</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle">
+                        <i class="icon-rouble"></i>
+                    </div>
+                    <h5 class="text-center">Symbolic price</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle">
+                        <i class="icon-chart-bar"></i>
+                    </div>
+                    <h5 class="text-center">Relevance and lifetime access</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle">
+                        <i class="icon-code"></i>
+                    </div>
+                    <h5 class="text-center">Practical lessons and tasks</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle">
+                        <i class="icon-file-video"></i>
+                    </div>
+                    <h5 class="text-center">34 videos in the course (5 hours)</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle">
+                        <i class="icon-mobile"></i>
+                    </div>
+                    <h5 class="text-center">Viewing from a smartphone</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle">
+                        <i class="icon-help"></i>
+                    </div>
+                    <h5 class="text-center">Additional useful materials</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle">
+                        <i class="icon-thumbs-up"></i>
+                    </div>
+                    <h5 class="text-center">Lack of advertising</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle">
+                        <i class="icon-group"></i>
+                    </div>
+                    <h5 class="text-center">The course is available in Telegram and Vk</h5>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- раздел "для кого курс"-->
+    <section class="forwhom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-5 color2" style="font-size: 60px;">For those who</h2>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">want to learn how to create a website themselves</h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">are learning modern development tools</h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">do not know HTML and CSS, but want to learn</h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">want to become a cool master and earn money</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <a href="#footer" class="btn btn-lg btn-itd"><b>ORDER</b></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- аккордеончик -->
+<section class="shedule">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center mb-3 color1" style="font-size: 60px;">Сourse program</h2>
+            </div>
+        </div>
+
+        <!-- 1ый столбец -->
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <h3 class="text-center fw-bold mb-3 mt-3">Module 1<br>(HTML)</h3>
+                
+                <div class="accordion accordion-flush" id="accordion1">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Introduction
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion1">
+                        <div class="accordion-body"><em>A brief overview of what we will be studying in this video course.</em></div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Installing the browser and code editor
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion1">
+                        <div class="accordion-body"><em>In this tutorial, we will install the Google Chrome browser and the VS Code editor.</em></div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Overview of the editor's functions
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordion1">
+                        <div class="accordion-body"><em>Let's look at the functions of the VS Code editor and find out how to work with it.</em></div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                            The first HTML tags
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordion1">
+                          <div class="accordion-body"><em>Let's learn our first HTML tags, which are used to create any websites.</em></div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                            How to set the file path
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordion1">
+                          <div class="accordion-body"><em>Let's learn how to correctly specify the path to image files and other pages of the site.</em></div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Creating a list
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordion1">
+                          <div class="accordion-body"><em>Let's learn how to create lists on your website.</em></div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Creating tables
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordion1">
+                          <div class="accordion-body"><em>In this lesson, we will look at how to create tables in HTML.</em></div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading8">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                            Working with text
+                          </button>
+                        </h2>
+                        <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent="#accordion1">
+                          <div class="accordion-body"><em>In this video tutorial, we will learn how to work with text.</em></div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading9">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                            Creating a form
+                          </button>
+                        </h2>
+                        <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordion1">
+                          <div class="accordion-body"><em>Let's learn how to create text input forms, checkboxes and buttons.</em></div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading10">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+                            Universal attributes
+                          </button>
+                        </h2>
+                        <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent="#accordion1">
+                          <div class="accordion-body"><em>Let's look at the universal attributes that can be added to any HTML tag.</em></div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading11">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                            Color RGB and special characters
+                          </button>
+                        </h2>
+                        <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11" data-bs-parent="#accordion1">
+                          <div class="accordion-body"><em>Let's learn how to work with RGB color and add special characters to your website.</em></div>
+                        </div>
+                    </div>                
+                  </div>
+            </div>
+        
+
+
+       
+         <!-- 2ой столбец -->
+          <div class="col-md-4 col-sm-12">
+              <h3 class="text-center fw-bold mb-3 mt-3">Module 2<br>(CSS)</h3>
+              
+              <div class="accordion accordion-flush" id="accordion2">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading21">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse21" aria-expanded="false" aria-controls="flush-collapse21">
+                        CSS selectors
+                      </button>
+                    </h2>
+                    <div id="flush-collapse21" class="accordion-collapse collapse" aria-labelledby="flush-heading21" data-bs-parent="#accordion2">
+                      <div class="accordion-body"><em>Let's look at the basic CSS selectors, find out what they are and why they are needed.</em></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading22">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse22" aria-expanded="false" aria-controls="flush-collapse22">
+                        Working with images
+                      </button>
+                    </h2>
+                    <div id="flush-collapse22" class="accordion-collapse collapse" aria-labelledby="flush-heading22" data-bs-parent="#accordion2">
+                      <div class="accordion-body"><em>Let's learn how to work with images in CSS.</em></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading23">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse23" aria-expanded="false" aria-controls="flush-collapse23">
+                         Adaptive version of the site
+                      </button>
+                    </h2>
+                    <div id="flush-collapse23" class="accordion-collapse collapse" aria-labelledby="flush-heading23" data-bs-parent="#accordion2">
+                      <div class="accordion-body"><em>In this lesson, we will learn how to create an adaptive grid in CSS. We will also learn how to work with variables and the calc function. We will learn how to create media queries to make an adaptive version of your site for mobile devices. Let's learn how to create a layout with a 12-column grid in Photoshop, compare our grid with the Bootstrap 5 grid, as well as learn how to connect it and learn how to check your site on a mobile device emulator directly from a browser on a PC.</em></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading24">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse24" aria-expanded="false" aria-controls="flush-collapse24">
+                          The borders
+                        </button>
+                      </h2>
+                      <div id="flush-collapse24" class="accordion-collapse collapse" aria-labelledby="flush-heading24" data-bs-parent="#accordion2">
+                        <div class="accordion-body"><em>In this lesson, we will learn how to create borders around any element on the site and style them.</em></div>
+                      </div>
+                  </div>
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading25">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse25" aria-expanded="false" aria-controls="flush-collapse25">
+                          Dimensions of the elements
+                        </button>
+                      </h2>
+                      <div id="flush-collapse25" class="accordion-collapse collapse" aria-labelledby="flush-heading25" data-bs-parent="#accordion2">
+                        <div class="accordion-body"><em>Let's figure out how to resize elements on a page using CSS.</em></div>
+                      </div>
+                  </div>
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading26">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse26" aria-expanded="false" aria-controls="flush-collapse26">
+                          Working with the font
+                        </button>
+                      </h2>
+                      <div id="flush-collapse26" class="accordion-collapse collapse" aria-labelledby="flush-heading26" data-bs-parent="#accordion2">
+                        <div class="accordion-body"><em>Let's learn how to work with fonts. Let's install our font on the site.</em></div>
+                      </div>
+                  </div>
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading27">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse27" aria-expanded="false" aria-controls="flush-collapse27">
+                          Block model of the document
+                        </button>
+                      </h2>
+                      <div id="flush-collapse27" class="accordion-collapse collapse" aria-labelledby="flush-heading27" data-bs-parent="#accordion2">
+                        <div class="accordion-body"><em>In this lesson, we will talk about the block model of the document and learn how to use the block model.</em></div>
+                      </div>
+                  </div>
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading28">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse28" aria-expanded="false" aria-controls="flush-collapse28">
+                          Pseudo classes and pseudo elements
+                        </button>
+                      </h2>
+                      <div id="flush-collapse28" class="accordion-collapse collapse" aria-labelledby="flush-heading28" data-bs-parent="#accordion2">
+                        <div class="accordion-body"><em>Pseudo-classes and pseudo-elements in CSS allow us to expand the basic features of the language that we have already learned.</em></div>
+                      </div>
+                  </div>
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading29">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse29" aria-expanded="false" aria-controls="flush-collapse29">
+                          CSS Flexbox
+                        </button>
+                      </h2>
+                      <div id="flush-collapse29" class="accordion-collapse collapse" aria-labelledby="flush-heading29" data-bs-parent="#accordion2">
+                        <div class="accordion-body"><em>In this lesson, we will learn the basic Flexbox layout techniques and apply them in the next module.</em></div>
+                      </div>
+                  </div>
+
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading20">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse20" aria-expanded="false" aria-controls="flush-collapse20">
+                          Homework
+                        </button>
+                      </h2>
+                      <div id="flush-collapse20" class="accordion-collapse collapse" aria-labelledby="flush-heading20" data-bs-parent="#accordion2">
+                        <div class="accordion-body"><em>A practice assignment on the topic 'creating an adaptive grid in CSS'.</em></div>
+                      </div>
+                  </div>             
+                </div>
+          </div>
+
+
+   <!-- 3ий столбец -->
+   <div class="col-md-4 col-sm-12">
+    <h3 class="text-center fw-bold mb-3 mt-3">Module 3<br>(Practice)</h3>
+    
+    <div class="accordion accordion-flush" id="accordion3">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading31">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse31" aria-expanded="false" aria-controls="flush-collapse31">
+              Layout of the site menu
+            </button>
+          </h2>
+          <div id="flush-collapse31" class="accordion-collapse collapse" aria-labelledby="flush-heading31" data-bs-parent="#accordion3">
+            <div class="accordion-body"><em>A lesson in which we will make up a fragment of a modern website using all the previously acquired knowledge.</em></div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading32">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse32" aria-expanded="false" aria-controls="flush-collapse32">
+              Homework
+            </button>
+          </h2>
+          <div id="flush-collapse32" class="accordion-collapse collapse" aria-labelledby="flush-heading32" data-bs-parent="#accordion3">
+            <div class="accordion-body"><em>Homework to consolidate the studied material in the previous lesson.</em></div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading33">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse33" aria-expanded="false" aria-controls="flush-collapse33">
+               Adaptive version of the site
+            </button>
+          </h2>
+          <div id="flush-collapse33" class="accordion-collapse collapse" aria-labelledby="flush-heading33" data-bs-parent="#accordion3">
+            <div class="accordion-body"><em>In this lesson, we will learn how to create an adaptive grid in CSS. We will also learn how to work with variables and the calc function. We will learn how to create media queries to make an adaptive version of your site for mobile devices. Let's learn how to create a layout with a 12-column grid in Photoshop, compare our grid with the Bootstrap 5 grid, as well as learn how to connect it and learn how to check your site on a mobile device emulator directly from a browser on a PC.</em></div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading34">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse34" aria-expanded="false" aria-controls="flush-collapse34">
+                Layout of a fragment of the site
+              </button>
+            </h2>
+            <div id="flush-collapse34" class="accordion-collapse collapse" aria-labelledby="flush-heading34" data-bs-parent="#accordion3">
+              <div class="accordion-body"><em>A lesson in which we will make up a fragment of a modern website using all the previously acquired knowledge.</em></div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading35">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse35" aria-expanded="false" aria-controls="flush-collapse35">
+                Photoshop for the layout designer
+              </button>
+            </h2>
+            <div id="flush-collapse35" class="accordion-collapse collapse" aria-labelledby="flush-heading35" data-bs-parent="#accordion3">
+              <div class="accordion-body"><em>In this lesson, we will look at the Photoshop graphics editor and learn the basic techniques that can be useful to a layout designer.</em></div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading36">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse36" aria-expanded="false" aria-controls="flush-collapse36">
+                The final project is a task
+              </button>
+            </h2>
+            <div id="flush-collapse36" class="accordion-collapse collapse" aria-labelledby="flush-heading36" data-bs-parent="#accordion3">
+              <div class="accordion-body"><em>Summing up the results and the final project that you can complete yourself and add this work to your portfolio.</em></div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading37">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse37" aria-expanded="false" aria-controls="flush-collapse37">
+                Block model of the document
+              </button>
+            </h2>
+            <div id="flush-collapse37" class="accordion-collapse collapse" aria-labelledby="flush-heading37" data-bs-parent="#accordion3">
+              <div class="accordion-body"><em>In this lesson, we will talk about the block model of the document and learn how to use the block model.</em></div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading38">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse38" aria-expanded="false" aria-controls="flush-collapse38">
+                Bonuses
+              </button>
+            </h2>
+            <div id="flush-collapse38" class="accordion-collapse collapse" aria-labelledby="flush-heading38" data-bs-parent="#accordion3">
+              <div class="accordion-body"><em>You will receive all the source codes for the lectures and homework of this module, additional materials that will be useful to you during development and links to a large number of proven online resources that will help you create a website.</em></div>
+            </div>
+        </div>
+           
+      </div>
+</div>
+
+    </div>
+
+    </div>
+</section>
+
+
+
+
+    <footer id="footer">
+      <div class="icons-container">
+        <div  class="itd_circle2">
+          <a href="https://youtu.be/gaxPqUW1JfU?si=m01CD83i3AuNDqhi">
+            <i class="icon-youtube-play"></i>
+          </a>
+        </div>
+        <div class="itd_circle2">
+          <a href="https://mail.google.com/mail/u/0/#inbox">
+            <i class="icon-mail-alt"></i>
+          </a>
+        </div>
+        <div class="itd_circle2">
+          <a href="https://t.me/dogsl1fe">
+            <i class="icon-paper-plane"></i>
+          </a>
+        </div>
+        <div class="itd_circle2">
+          <a href="https://vk.com/">
+            <i class="icon-vkontakte"></i>
+          </a>
+        </div>
+        <div class="itd_circle2">
+          <a href="https://en.wikipedia.org/wiki/Instagram">
+            <i class="icon-instagram"></i>
+          </a>
+        </div>
+        <div class="itd_circle2">
+          <a href="https://github.com/">
+            <i class="icon-github-circled"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

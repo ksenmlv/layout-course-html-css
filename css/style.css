@@ -1,0 +1,158 @@
+/* переменные */
+:root {
+    --color1: #bab9d3;
+    --color2: #c4faf8;
+}
+
+/* отступы */
+header,
+footer,
+section {
+    padding: 100px 0;
+}
+header {
+    padding: 150px 0;
+}
+
+/* фон */
+header,
+footer {
+    background: url(../img/pattern.png), var(--color1);
+    background: url(../img/pattern.png), linear-gradient(to right, var(--color1) 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 23%, #e6f8fd 41%, #c8eefb 54%, #bee4f8 75%, var(--color2) 100%);
+    background-size: contain;
+}
+
+
+/* тень текста */
+h1.text-center, h2.text-center {
+    text-shadow: 4px 2px 0 #000;
+}
+
+/* кнопки */
+.itd_play {
+    background-color: azure;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.4s ease;
+}
+
+.itd_play:hover {
+    background-color: var(--color2);
+}
+
+.itd_triangle {
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 25px;
+    border-color: transparent transparent transparent black;
+}
+
+.btn-itd {
+    display: block;
+    max-width: 200px;
+    height: 60px;
+    margin: 0px auto;
+    color: azure;
+    background-color: black;
+    font-size: 30px;
+}
+
+.btn-itd:hover {
+    background-color: var(--color1);
+}
+
+/* видео в модульном окне */
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* цвета */
+.color1{
+    color: var(--color1);
+}
+.color2{
+    color: var(--color2);
+}
+.bg1{
+    background-color: var(--color1);
+}
+.bg2{
+    background-color: var(--color2);
+}
+h5{
+    font-size: 30px;
+}
+
+/* раздел о курсе */
+.about, .shedule{
+    background-color:azure;
+}
+
+.about i{
+    font-size: 30px;
+    color: var(--color1);
+}
+
+.itd_circle{
+    margin: 15px auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 100px;
+    height: 5px;
+    background-color: var(--color2);
+    margin: 15px auto 30px;
+}
+
+/* раздел для кого курс */
+.forwhom h5{
+    font-size: 30px;
+    padding: 50px;
+    border: 5px solid var(--color2);
+    text-shadow: 2px 2px 4px var(--color1), -2px -2px 4px var(--color2);
+}
+
+/* раздел программа курса */
+.accordion-button:not(.collapsed){
+    color: var(--bs-black);
+    background-color: var(--color2);
+}
+
+/* иконки в футере */
+.icons-container {
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+}
+
+.itd_circle2{
+    padding: 20px; 
+    width: 60px;
+    height: 60px;
+    border: 3px solid #000;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
